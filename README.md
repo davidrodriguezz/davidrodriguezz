@@ -1,6 +1,6 @@
 # About Me
 
-Hello there! 👋 I'm [Your Name], a passionate [Your Profession/Field] based in [Your Location]. I thrive on [Briefly Describe Your Passion or Motivation]. With a blend of creativity, curiosity, and continuous learning, I'm on a journey to [Your Goals or Aspirations].
+Hello there! 👋 I'm David, a passionate [Your Profession/Field] based in [Your Location]. I thrive on [Briefly Describe Your Passion or Motivation]. With a blend of creativity, curiosity, and continuous learning, I'm on a journey to [Your Goals or Aspirations].
 
 ## 🚀 What I Do
 
@@ -21,8 +21,7 @@ I'm always open to new opportunities, collaborations, and conversations. Feel fr
 Looking forward to connecting with you! 👇
 
 **Contact Information:**
-- Email: [Your Email Address]
-- LinkedIn: [LinkedIn Profile]
-- GitHub: [GitHub Profile]
-- Twitter: [Twitter Handle]
-- Website/Blog: [Website/Blog (if applicable)]
+- Email: [davidrodriguezgomez13@gmail.com](davidrodriguezgomez13@gmail.com)
+- LinkedIn: [www.linkedin.com/in/davidrodriguezgomezgamedeveloper](www.linkedin.com/in/davidrodriguezgomezgamedeveloper)
+- GitHub: [https://github.com/davidrodriguezz](https://github.com/davidrodriguezz)
+- More Info: [https://davidrodriguezz.github.io/davidrodriguezz/](https://davidrodriguezz.github.io/davidrodriguezz/)
