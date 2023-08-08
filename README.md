@@ -1,22 +1,22 @@
 # About Me
 
-Hello there! 👋 I'm David, a passionate [Your Profession/Field] based in [Your Location]. I thrive on [Briefly Describe Your Passion or Motivation]. With a blend of creativity, curiosity, and continuous learning, I'm on a journey to [Your Goals or Aspirations].
+Hello there! 👋 I'm David, a passionate game and software developer based in Madrid, Spain. I hold a degree in Game Development from Universidad Complutense de Madrid (UCM). With 4 years of experience working on projects, I am well-prepared to explore new opportunities in the software field.
 
 ## 🚀 What I Do
 
-I specialize in [Your Area of Expertise], where I [Briefly Describe Your Expertise]. My journey in this field began when [Share a Short Anecdote or Experience]. I enjoy tackling complex challenges and turning them into innovative solutions that [How Your Work Benefits or Impacts Others].
+During my journey, I have worked on various projects that have strengthened my skills as a developer. My academic background has provided me with a strong foundation in programming, game mechanics design, graphics and visual effects implementation, AI, and collaborating within multidisciplinary teams.
 
 ## 💡 Why Choose Me
 
-Choosing me means opting for a dedicated professional who [Highlight Your Key Attributes]. I am committed to [Your Work Principles or Values], ensuring that every project I undertake is delivered with [Your Promise to Deliver]. With a strong foundation in [Your Skills or Knowledge Base], I am always excited to explore new possibilities and collaborate with like-minded individuals.
+I am an open and collaborative individual, always eager to learn from my peers and contribute my skills to teamwork. As I venture into the professional world, I hope to find an opportunity within a company where I can continue to grow as a professional.
 
 ## 🌱 What Inspires Me
 
-I draw inspiration from [What Inspires You]. Whether it's [Specific Interests or Hobbies], or [Quotes or Philosophies You Live By], these elements fuel my drive to excel and create meaningful contributions.
+I am also open to contributing to the creation of other types of software. My education and experience in Game Development have equipped me with a solid base in programming, design, and problem-solving skills, which I find transferrable to different areas of software development. I am ready to take on new challenges and continuously learn to expand my skill set.
 
 ## 📫 Let's Connect
 
-I'm always open to new opportunities, collaborations, and conversations. Feel free to reach out to me via [Your Preferred Contact Method], and let's embark on a journey to [What You Hope to Achieve Together]. You can also find me on [Social Media Links], where I share insights, thoughts, and updates related to [Your Field or Interests].
+Furthermore, I want to highlight that I have a B2 level of English proficiency, enabling me to effectively communicate in professional environments and collaborate on international projects. Feel free to reach out to me via email if you're interested in connecting or exploring potential collaborations. You can also find me on LinkedIn.
 
 Looking forward to connecting with you! 👇
 
