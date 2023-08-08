@@ -21,7 +21,7 @@ I'm always open to new opportunities, collaborations, and conversations. Feel fr
 Looking forward to connecting with you! 👇
 
 **Contact Information:**
-- Email: [davidrodriguezgomez13@gmail.com](davidrodriguezgomez13@gmail.com)
+- Email: [davidrodriguezgomez13@gmail.com](mailto:davidrodriguezgomez13@gmail.com)
 - LinkedIn: [www.linkedin.com/in/davidrodriguezgomezgamedeveloper](www.linkedin.com/in/davidrodriguezgomezgamedeveloper)
 - GitHub: [https://github.com/davidrodriguezz](https://github.com/davidrodriguezz)
 - More Info: [https://davidrodriguezz.github.io/davidrodriguezz/](https://davidrodriguezz.github.io/davidrodriguezz/)
