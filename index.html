@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tu Nombre - Curriculum</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi página personal en GitHub">
+    <title>Tu Nombre - Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #666;
+        }
+        section {
+            padding: 2em;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 0.5em;
+            margin-bottom: 1.5em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Mi Nombre</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">Sobre Mí</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <div class="profile">
-        <img src="tu_foto.jpg" alt="Mi Foto">
-        <h2>Sobre Mí</h2>
-        <p>Mi descripción personal...</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 - Todos los derechos reservados</p>
-  </footer>
+    <header>
+        <h1>Mi Nombre</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Breve descripción sobre quién eres, tus intereses y habilidades.</p>
+    </section>
+    
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <ul>
+            <li>
+                <h3>Trabajo actual - Empresa XYZ</h3>
+                <p>Descripción de tus responsabilidades y logros en tu trabajo actual.</p>
+            </li>
+            <!-- Agrega más elementos li para experiencias anteriores si es necesario -->
+        </ul>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto, tecnologías utilizadas y tu rol en el proyecto.</p>
+            </li>
+            <!-- Agrega más elementos li para otros proyectos -->
+        </ul>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mis redes sociales o enviar un correo a <a href="mailto:correo@example.com">correo@example.com</a>.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
