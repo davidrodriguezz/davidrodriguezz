@@ -1,1 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f5fa;
+  }
+  
+  header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #004d99; /* Fondo azul */
+    color: white; /* Texto en blanco */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+  }
+  
+  .sidenav a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* División de secciones */
+    text-align: center; /* Centro de texto */
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
 
+  .centered-image {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50px; /* Ajusta el tamaño según tu preferencia */
+    height: auto; /* Para mantener la proporción de la imagen */
+    transition: left 0.5s ease; /* Agrega una transición suave al movimiento */
+  }
+  #container {
+    display: flex; /* Asegura que los elementos dentro no afecten la posición */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  
+  
+  
+  
+  /* Estilos adicionales aquí */
+  
