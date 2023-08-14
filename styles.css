@@ -1,134 +1,198 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: #004d99;
-    color: white;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #004d99; /* Fondo azul */
-    color: white; /* Texto en blanco */
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    z-index: 1000;
-  }
-  
-  .sidenav a {
-    padding: 15px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* División de secciones */
-    text-align: center; /* Centro de texto */
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-  .centered-image {
-    transition: opacity 0.3s, background-color 0.3s;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 50px; /* Ajusta el tamaño según tu preferencia */
-    height: auto; /* Para mantener la proporción de la imagen */
-    transition: left 0.5s ease; /* Agrega una transición suave al movimiento */
-  }
+/* Estilos para el encabezado */
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 10px;
+}
 
-  .centered-image:hover {
-    opacity: 0.8; /* Cambia la opacidad al pasar el cursor */
-    cursor: pointer; /* Cambia el cursor al pasar el cursor */
-  }
-  #container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .section {
-    width: 100%;
-    padding: 50px 0;
-  }
-  
-  .blue-section {
-    background-color: #003366;
-    color: white;
-  }
-  
-  .gray-section {
-    background-color: #dddddd;
-  }
+/* Estilos para la barra de navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
 
-  .gray-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse; /* Colocar la imagen a la derecha */
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #004d99;
+  color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.sidenav a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.centered-image {
+  transition: opacity 0.3s, background-color 0.3s;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50px;
+  height: auto;
+  transition: left 0.5s ease;
+}
+
+.centered-image:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para las secciones */
+.section {
+  width: 100%;
+  padding: 50px 0;
+  display: block; /* Agrega display block para asegurar que ocupen espacio */
+}
+
+.blue-section {
+  background-color: #003366;
+  color: white;
+}
+
+.gray-section {
+  background-color: #dddddd;
+  display: none; /* Agrega display none para ocultar la sección gris inicialmente */
+}
+
+.gray-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.gray-image {
+  width: 40%;
+  max-width: 300px;
+}
+
+.gray-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gray-text {
+  width: 55%;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.circle-frame {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.circle-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Agrega aquí otros estilos si los tienes */
+/* Define una animación de fundido */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
   }
-  
-  .gray-image {
-    width: 40%;
-    max-width: 300px;
+  to {
+    opacity: 1;
   }
-  
-  .gray-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .gray-text {
-    width: 55%;
-  }
-  
-  .content {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .circle-frame {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 20px;
-  }
-  
-  .circle-frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center top; /* Alineación en la parte superior del centro */
-  }
-  
+}
+
+/* Aplica la animación al contenido con una duración de 1 segundo */
+#content.fade {
+  animation: fade-in 1s;
+}
+
+.fade-in-paragraph {
+  opacity: 0;
+  transform: translateY(20px); /* Opcional: agrega un desplazamiento hacia abajo */
+  transition: opacity 0.5s, transform 0.5s;
+}
+#content.fade .fade-in-paragraph {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.green-section {
+  background-color: #00a74a; /* Color verde */
+  color: white;
+}
+
+.grey-section {
+  background-color: #7f7f7f; /* Color verde */
+  color: white;
+}
+
+/* Agrega estilos al contenedor de la sección de lenguajes */
+.image-grid-container {
+  text-align: center; /* Centra el título "Lenguajes" */
+  padding: 20px; /* Agrega espacio alrededor del contenido */
+}
+
+/* Estilos para la nueva sección de imágenes verdes */
+.image-grid {
+  justify-content: center; /* Centra horizontalmente las imágenes */
+  align-items: center;
+  text-align: center; /* Centra verticalmente las imágenes */
+}
+
+.image-grid img {
+  width: 100px; /* Ajusta el tamaño según tus necesidades */
+  height: 100px; /* Ajusta el tamaño según tus necesidades */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+
