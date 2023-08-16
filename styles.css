@@ -199,4 +199,29 @@ nav a {
   object-fit: cover;
   border-radius: 5px;
 }
+.image-center {
+  display: grid;
+  justify-content: center;
+  grid-gap: 20px; /* Espacio entre las imágenes */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.image-center img {
+  width: 600px;
+  height: 400px;
+}
+
+.back-link {
+  display: block; /* Hace que cada enlace ocupe una línea completa */
+  margin-bottom: 10px; /* Agrega un espacio entre los enlaces */
+
+  color: red; /* Cambia este valor al color deseado */
+  text-decoration: none; /* Elimina la subraya predeterminada */
+}
+
+/* Cambiar el color cuando el enlace está en hover (puntero encima) */
+.back-link:hover {
+  color: darkred; /* Cambia este valor al color deseado al pasar el puntero */
+}
+
 
